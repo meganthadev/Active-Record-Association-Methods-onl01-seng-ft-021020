@@ -6,7 +6,7 @@ class Artist < ActiveRecord::Base
     
   end
 
-  def song_count(artist)
+  def song_count
     self.songs.all
   end
 
